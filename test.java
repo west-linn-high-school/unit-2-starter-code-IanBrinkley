@@ -1,33 +1,10 @@
+public class test {
+    public static void main(String[] args) {
+        String m1, m2, m3;
+        m1 = "Quest for the Holy Grail";
+        m2 = m1.toLowerCase();
+        m3 = m1 + " " + m2;
+        System.out.println(m3.replace('h', 'z'));
 
-/**
- * Write a description of class test here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class test
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class test
-     */
-    public test()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
     }
 }
